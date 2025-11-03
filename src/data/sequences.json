@@ -1,0 +1,94 @@
+[
+    {
+        "id": "intro-to-aws",
+        "title": "Intro to Amazon Web Services",
+        "description": "Getting started with AWS cloud services and Linux administration",
+        "color": "#f59e0b",
+        "videos": [
+            {
+                "id": "aws-1",
+                "title": "Linux in the Cloud",
+                "url": "https://www.youtube.com/watch?v=dOEMa3Q3zHE",
+                "description": "Setting up a Linux systems in cloud environments"
+            },
+            {
+                "id": "aws-2",
+                "title": "Granting Access to your EC2 Box",
+                "url": "https://www.youtube.com/watch?v=r64ZMQ75UWI",
+                "description": "Managing access permissions for EC2 instances"
+            }
+        ]
+    },
+    {
+        "id": "intro-to-databases",
+        "title": "Intro to Databases",
+        "description": "Complete introduction to database concepts and management",
+        "color": "#3b82f6",
+        "videos": [
+            {
+                "id": "db-1",
+                "title": "Databases: \"System\" vs \"Part of a System\"",
+                "url": "https://www.youtube.com/watch?v=dV_mTzEEl6E",
+                "description": "Understanding databases as systems and components within larger systems"
+            },
+            {
+                "id": "db-2",
+                "title": "Databases: A Note About AI",
+                "url": "https://www.youtube.com/watch?v=aJMCpcQmnv4",
+                "description": "Important considerations about AI in database contexts"
+            },
+            {
+                "id": "db-3",
+                "title": "Databases: Key Term \"Relational Database\"",
+                "url": "https://www.youtube.com/watch?v=EflkuaFQCGQ",
+                "description": "Essential understanding of relational database concepts"
+            },
+            {
+                "id": "db-4",
+                "title": "Databases: Key Term \"Entity Relationship Diagram\"",
+                "url": "https://www.youtube.com/watch?v=9m8As2D9ISg",
+                "description": "Understanding ERDs and their role in database design"
+            },
+            {
+                "id": "db-5",
+                "title": "Databases: Key Terms \"Tables/Rows/Columns\"",
+                "url": "https://www.youtube.com/watch?v=fob5i9VWhk4",
+                "description": "Fundamental database structure components explained"
+            },
+            {
+                "id": "db-6",
+                "title": "Databases: DBs in Context",
+                "url": "https://www.youtube.com/watch?v=tp7PzB4Pgo8",
+                "description": "Understanding how databases fit within larger systems"
+            },
+            {
+                "id": "db-7",
+                "title": "Databases: LLM prompt to create a new table",
+                "url": "https://www.youtube.com/watch?v=hYkkNQvXwgg",
+                "description": "Using AI to help with database table creation"
+            },
+            {
+                "id": "db-8",
+                "title": "Databases: LLM wrote SQL, but now what?",
+                "url": "https://www.youtube.com/watch?v=KYQnN3Mau00",
+                "description": "Next steps after AI generates SQL code for you"
+            },
+            {
+                "id": "db-9",
+                "title": "Databases: Key term \"migrations\"",
+                "url": "https://www.youtube.com/watch?v=dPjHfLQDS6I",
+                "description": "Understanding database migrations and schema changes"
+            },
+            {
+                "id": "db-10",
+                "title": "Databases: Installing PostgreSQL, running our migration",
+                "url": "",
+                "description": "Understanding database migrations and schema changes",
+                "dependencies": [
+                    "aws-1"
+                ]
+            }
+        ]
+    }
+  
+]
